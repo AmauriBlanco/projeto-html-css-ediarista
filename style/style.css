@@ -201,11 +201,7 @@ hr {
   justify-content: center;
   align-items: center;
   width: 70px;
-  padding: 15px;
-}
-
-.porq-item div img {
-  width: 100%;
+  padding: 18px;
 }
 
 .porq-item h4,
@@ -431,14 +427,14 @@ footer {
   .porq-campos-itens {
     gap: 15px;
   }
+}
 
+@media (max-width: 600px) {
   .porq-campos-itens hr {
     width: 100%;
     display: block;
   }
-}
 
-@media (max-width: 576px) {
   .footer-content {
     grid-template-columns: 1fr;
   }
